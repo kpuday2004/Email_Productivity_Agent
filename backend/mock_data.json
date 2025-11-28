@@ -1,0 +1,235 @@
+{
+  "users": [
+    {
+      "id": "user-001",
+      "email": "demo@email.com",
+      "password": "demo123",
+      "name": "Demo User"
+    }
+  ],
+  "emails": [
+    {
+      "id": "email-001",
+      "user_id": "user-001",
+      "sender": "Sarah Johnson",
+      "sender_email": "sarah.j@techcorp.com",
+      "subject": "Urgent: Q1 Budget Review Meeting",
+      "body": "Hi, We need to schedule the Q1 budget review meeting by end of this week. Can you review the attached financial reports and come prepared with your department's projections? Please confirm your availability for Thursday 2-4 PM.",
+      "received_at": "2025-01-27T10:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-002",
+      "user_id": "user-001",
+      "sender": "TechNews Daily",
+      "sender_email": "newsletter@technews.com",
+      "subject": "Top 10 AI Trends in 2025",
+      "body": "Welcome to this week's TechNews! In this edition: 1) GPT-5 launches with groundbreaking features, 2) Quantum computing breakthrough, 3) AR glasses become mainstream, and more. Click here to read full stories.",
+      "received_at": "2025-01-27T07:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-003",
+      "user_id": "user-001",
+      "sender": "No Reply",
+      "sender_email": "noreply@prize-winner.xyz",
+      "subject": "CONGRATULATIONS! You've Won $1,000,000!!!",
+      "body": "Dear Lucky Winner, You have been selected as our grand prize winner! Click here immediately to claim your prize. This offer expires in 24 hours. Send us your bank details to process the payment.",
+      "received_at": "2025-01-27T04:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-004",
+      "user_id": "user-001",
+      "sender": "Michael Chen",
+      "sender_email": "m.chen@company.com",
+      "subject": "Project Alpha - Code Review Required",
+      "body": "Hey, I've pushed the new authentication module to the dev branch. Could you please review the code by tomorrow morning? We need to merge it before the sprint ends. The PR is #234. Let me know if you spot any issues.",
+      "received_at": "2025-01-27T00:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-005",
+      "user_id": "user-001",
+      "sender": "HR Department",
+      "sender_email": "hr@company.com",
+      "subject": "Annual Performance Review Reminder",
+      "body": "This is a reminder that your annual performance review is scheduled for next Monday at 10 AM in Conference Room B. Please complete your self-assessment form and submit it by Friday EOD.",
+      "received_at": "2025-01-26T18:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-006",
+      "user_id": "user-001",
+      "sender": "LinkedIn",
+      "sender_email": "notifications@linkedin.com",
+      "subject": "You have 5 new profile views",
+      "body": "Your profile is getting attention! You have 5 new profile views this week. See who's interested in your professional background. Upgrade to Premium to see all viewers.",
+      "received_at": "2025-01-26T12:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-007",
+      "user_id": "user-001",
+      "sender": "Emily Rodriguez",
+      "sender_email": "emily.r@design.studio",
+      "subject": "New Design Mockups Ready",
+      "body": "Hi! I've finished the UI mockups for the mobile app redesign. I've uploaded them to Figma. Can you review them and provide feedback by Wednesday? We need to finalize the design before development starts.",
+      "received_at": "2025-01-26T06:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-008",
+      "user_id": "user-001",
+      "sender": "Amazon",
+      "sender_email": "shipment@amazon.com",
+      "subject": "Your package has been delivered",
+      "body": "Good news! Your package was delivered today at 3:42 PM. It was handed directly to a resident. Order #123-4567890-1234567. Thank you for shopping with Amazon!",
+      "received_at": "2025-01-25T12:00:00Z",
+      "is_read": true
+    },
+    {
+      "id": "email-009",
+      "user_id": "user-001",
+      "sender": "David Park",
+      "sender_email": "d.park@client.com",
+      "subject": "Client Proposal Feedback",
+      "body": "Thanks for the detailed proposal. Overall looks great! A few questions: 1) Can we adjust the timeline to 8 weeks instead of 12? 2) What's included in the maintenance package? 3) Can we schedule a call next week to discuss the budget breakdown?",
+      "received_at": "2025-01-25T04:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-010",
+      "user_id": "user-001",
+      "sender": "Spotify",
+      "sender_email": "no-reply@spotify.com",
+      "subject": "Your Discover Weekly is ready!",
+      "body": "We've updated your Discover Weekly playlist with fresh tracks we think you'll love. 30 new songs based on your listening habits. Start exploring now!",
+      "received_at": "2025-01-24T12:00:00Z",
+      "is_read": true
+    },
+    {
+      "id": "email-011",
+      "user_id": "user-001",
+      "sender": "Rachel Kim",
+      "sender_email": "r.kim@marketing.agency",
+      "subject": "Campaign Performance Report - Action Needed",
+      "body": "Hi, The Q4 campaign results are in. Overall ROI is down 15% from target. We need to pivot our strategy. Please review the attached analytics and let's set up a strategy session this week. What times work for you?",
+      "received_at": "2025-01-24T00:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-012",
+      "user_id": "user-001",
+      "sender": "IT Support",
+      "sender_email": "support@company.com",
+      "subject": "System Maintenance Scheduled",
+      "body": "Please note that we will be performing scheduled system maintenance on Saturday, March 15th from 2:00 AM to 6:00 AM EST. All services will be temporarily unavailable during this time. Please save your work before the maintenance window.",
+      "received_at": "2025-01-23T12:00:00Z",
+      "is_read": true
+    },
+    {
+      "id": "email-013",
+      "user_id": "user-001",
+      "sender": "James Wilson",
+      "sender_email": "j.wilson@partner.co",
+      "subject": "Partnership Opportunity Discussion",
+      "body": "I hope this email finds you well. I've been following your company's growth and I believe there's a strong opportunity for partnership. Would you be open to a 30-minute call to explore potential collaboration? I'm available next week.",
+      "received_at": "2025-01-22T12:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-014",
+      "user_id": "user-001",
+      "sender": "GitHub",
+      "sender_email": "noreply@github.com",
+      "subject": "Security alert: New sign-in from unusual location",
+      "body": "We detected a new sign-in to your GitHub account from San Francisco, CA using Chrome on Windows. If this was you, you can disregard this email. If you don't recognize this activity, please secure your account immediately.",
+      "received_at": "2025-01-22T04:00:00Z",
+      "is_read": true
+    },
+    {
+      "id": "email-015",
+      "user_id": "user-001",
+      "sender": "Anna Martinez",
+      "sender_email": "anna.m@vendor.com",
+      "subject": "Invoice #INV-2025-0342 - Payment Due",
+      "body": "Dear Client, This is a friendly reminder that Invoice #INV-2025-0342 for $5,240.00 is due on March 20th, 2025. Please process the payment by the due date to avoid late fees. Payment details are attached. Thank you!",
+      "received_at": "2025-01-21T12:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-016",
+      "user_id": "user-001",
+      "sender": "Fitness App",
+      "sender_email": "updates@fitnessapp.com",
+      "subject": "You're on a 7-day streak!",
+      "body": "Amazing work! You've logged workouts for 7 days in a row. Keep up the momentum! You're just 3 days away from unlocking the 10-day achievement badge. Don't break the streak now!",
+      "received_at": "2025-01-20T12:00:00Z",
+      "is_read": true
+    },
+    {
+      "id": "email-017",
+      "user_id": "user-001",
+      "sender": "Robert Thompson",
+      "sender_email": "r.thompson@legal.firm",
+      "subject": "Contract Review - Urgent Signature Required",
+      "body": "Hi, We need your signature on the updated service agreement by end of business tomorrow. I've made the revisions we discussed last week. Please review pages 4, 7, and 12 specifically. Let me know if you have any concerns.",
+      "received_at": "2025-01-20T07:00:00Z",
+      "is_read": false
+    },
+    {
+      "id": "email-018",
+      "user_id": "user-001",
+      "sender": "Medium Digest",
+      "sender_email": "noreply@medium.com",
+      "subject": "Top stories for you based on your interests",
+      "body": "Good morning! Here are today's top stories: 'The Future of Remote Work' by Jane Doe, '10 Productivity Hacks for Developers' by John Smith, 'Building Better APIs' by Sarah Lee. Total reading time: 24 minutes.",
+      "received_at": "2025-01-19T12:00:00Z",
+      "is_read": true
+    },
+    {
+      "id": "email-019",
+      "user_id": "user-001",
+      "sender": "Customer Support",
+      "sender_email": "support@saas-platform.com",
+      "subject": "Your support ticket has been resolved",
+      "body": "Good news! Your support ticket #45678 regarding 'Login issues on mobile app' has been resolved. Our team has deployed a fix. Please test the app and let us know if you continue to experience any issues.",
+      "received_at": "2025-01-18T12:00:00Z",
+      "is_read": true
+    },
+    {
+      "id": "email-020",
+      "user_id": "user-001",
+      "sender": "Maria Garcia",
+      "sender_email": "m.garcia@startup.io",
+      "subject": "Coffee Chat Next Week?",
+      "body": "Hey! It's been a while since we last caught up. I'd love to grab coffee and hear about what you're working on. Are you free any day next week? I'm flexible on timing. Let me know what works for you!",
+      "received_at": "2025-01-17T12:00:00Z",
+      "is_read": false
+    }
+  ],
+  "prompts": [
+    {
+      "id": "prompt-001",
+      "user_id": "user-001",
+      "name": "Email Categorization",
+      "prompt_type": "categorization",
+      "content": "Categorize this email into one of these categories: Important, Newsletter, Spam, To-Do. A To-Do email must include a direct request requiring user action. Respond with only the category name."
+    },
+    {
+      "id": "prompt-002",
+      "user_id": "user-001",
+      "name": "Action Item Extraction",
+      "prompt_type": "action_extraction",
+      "content": "Extract tasks from this email. Respond in JSON format: {\"tasks\": [{\"task\": \"...\", \"deadline\": \"...\"}]}. If no tasks, return {\"tasks\": []}."
+    },
+    {
+      "id": "prompt-003",
+      "user_id": "user-001",
+      "name": "Auto-Reply Draft",
+      "prompt_type": "auto_reply",
+      "content": "Draft a polite, professional reply to this email. If it's a meeting request, ask for an agenda. Keep it concise and friendly."
+    }
+  ]
+}
